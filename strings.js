@@ -68,3 +68,5 @@
 // console.log(trimStr);
 // console.log(trimStr.length);
 
+// console.log(trimStr.trim());
+// console.log(trimStr.trim().length);
