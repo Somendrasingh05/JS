@@ -15,3 +15,27 @@ let person = {
 
 console.log(`Hey ${person.name}, thank you for signing up !`);
 console.log(person.gender);
+console.log(person["gender"]);
+
+let str = "Hello";
+console.log(str.length); //dot notation
+console.log(str["length"]); //square bracket notation
+
+//nesting of objects
+let captainAmerica = {
+    firstName: "Steve",
+    lastName: "Rogers",
+    friends: ["Bucky", "Tony Stark", "Brue Banner"],
+    age: 102,
+    isAvenger: true,
+    address: {
+        state: "Manhattan",
+        city: "New York",
+        country: "USA"
+    },
+    sayHi: function () {
+        console.log(`Hello my name is ${this.firstName}`);
+    }
+};
+
+console.log(captainAmerica);
