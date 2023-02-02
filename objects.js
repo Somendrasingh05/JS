@@ -79,3 +79,35 @@ console.log(typeof captainAmerica.friends);
 //deleteing the key of an object
 delete captainAmerica.lastName;
 console.log(captainAmerica.lastName);
+// str{
+//     length: // 
+//     toUpperCase: function() {
+
+//         for()
+//     }
+// }
+
+
+let car = {
+    name: "Ferrari",
+    model: 2022,
+    startEngine: function () {
+        console.log(`Starting the engine of the car ${this.name}`)
+    }
+}
+
+car.startEngine();
+
+
+// methods-> objects ke andar function
+// console.log(str.toUpperCase());
+
+
+let arr = ["a", "b", 1, true];
+
+let arrr = {
+    0: "a",
+    1: "b",
+    2: 1,
+    3:true
+}
