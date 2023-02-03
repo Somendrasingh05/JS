@@ -91,5 +91,11 @@ car.startEngine();
 
 let arr = ["a", "b", 1, true];
 
+let arrr = {
+    0: "a",
+    1: "b",
+    2: 1,
+    3:true
 
+}
 
