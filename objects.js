@@ -41,7 +41,7 @@ let captainAmerica = {
 console.log(captainAmerica);
 console.log(captainAmerica.friends);
 console.log(captainAmerica.friends[0]); 
-console.log("printed using bracket notation "+captainAmerica["friends"][0]);
+console.log("printed using bracket notation "+ captainAmerica["friends"][0]);
 captainAmerica.sayHi(); //method accessing 
 //nested objects 
 console.log(captainAmerica.address.city); 
@@ -91,9 +91,5 @@ car.startEngine();
 
 let arr = ["a", "b", 1, true];
 
-let arrr = {
-    0: "a",
-    1: "b",
-    2: 1,
-    3:true
-}
+
+
