@@ -13,5 +13,13 @@ console.log("5" - 1);
 
 console.log("ten" * 3); //"ten" string cannot be mapped to a number like "5" can be mapped to Number 5 hence the ouput is Nan
 console.log("10" * 3);
-i am a very good coder 
-my technical skills include C , java , HTML , CSS
+1
+2
+3
+4
+5
+6
+
+7
+8
+9
