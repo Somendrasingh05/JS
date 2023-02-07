@@ -13,6 +13,4 @@ console.log("5" - 1);
 
 console.log("ten" * 3); //"ten" string cannot be mapped to a number like "5" can be mapped to Number 5 hence the ouput is Nan
 console.log("10" * 3);
-just a fake push 
-for git hub 
-to look consoleans coansisten at the same time
+
